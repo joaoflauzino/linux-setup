@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Salvando lista de pacotes e versionando no Git...
+When = PostTransaction
+Exec = /usr/bin/sudo -u %u /home/%u/scripts/save-packages.sh

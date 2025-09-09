@@ -1,0 +1,17 @@
+[Unit]
+Description=OpenRGB with Omarchy profile
+After=graphical.target
+
+[Service]
+ExecStart=/usr/bin/openrgb \
+  --profile /home/%u/.config/OpenRGB/Profiles/omarchy.orp \
+  --startminimized \
+  --server
+Restart=on-failure
+RestartSec=5
+KillMode=process
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/%U
+
+[Install]
+WantedBy=default.target

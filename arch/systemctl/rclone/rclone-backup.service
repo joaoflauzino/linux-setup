@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup para OneDrive com rclone
+
+[Service]
+Type=oneshot
+ExecStart=%h/scripts/rclone-backup.sh
