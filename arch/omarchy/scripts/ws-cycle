@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+# ~/.local/bin/ws-cycle
+import json, subprocess, sys
+
+def run(cmd):
+    return subprocess.check_output(cmd, shell=True).decode()
+
+def main():
+    if len(sys.argv) < 2 or sys.argv[1] not in ("next", "prev"):
+        print("usage: ws-cycle next|prev")
+        return 1
+    direction = sys.argv[1]
+
+    try:
+        active = json.loads(run("hyprctl activeworkspace -j"))
+        all_ws = json.loads(run("hyprctl workspaces -j"))
+    except Exception as e:
+        print("erro ao chamar hyprctl:", e)
+        return 2
+
+    # tenta chaves comuns ('monitor' ou 'output')
+    monitor = active.get("monitor") or active.get("output") or active.get("display")
+
+    # filtra workspaces do monitor ativo
+    ws_on_mon = [w for w in all_ws if (w.get("monitor") or w.get("output") or w.get("display")) == monitor]
+
+    if not ws_on_mon:
+        # fallback: usa todos (garantia)
+        ws_on_mon = all_ws
+
+    # ordenar por id numérico
+    try:
+        ws_on_mon = sorted(ws_on_mon, key=lambda x: int(x.get("id", x.get("name", 0))))
+    except:
+        ws_on_mon = sorted(ws_on_mon, key=lambda x: x.get("id", 0))
+
+    # extrai ids
+    ids = [int(w.get("id", w.get("name", 0))) for w in ws_on_mon]
+
+    cur_id = int(active.get("id", active.get("name", 0)))
+
+    if cur_id not in ids:
+        # se algo incomum, escolhe o mais próximo (fallback simples)
+        ids_sorted = sorted(ids)
+        target = ids_sorted[0] if direction == "next" else ids_sorted[-1]
+    else:
+        idx = ids.index(cur_id)
+        if direction == "next":
+            if idx < len(ids) - 1:
+                target = ids[idx + 1]
+            else:
+                # no último: não faz nada (para no último)
+                return 0
+        else:  # prev
+            if idx > 0:
+                target = ids[idx - 1]
+            else:
+                # no primeiro: não faz nada
+                return 0
+
+    # troca para o workspace alvo
+    subprocess.call(["hyprctl", "dispatch", "workspace", str(target)])
+    return 0
+
+if __name__ == "__main__":
+    sys.exit(main())
