@@ -150,7 +150,8 @@ gcr-4 4.4.0.1-1
 gdbm 1.26-1
 gdk-pixbuf2 2.44.1-4
 gdu 5.31.0-1
-gemini-cli 0.4.0-1
+gemini-cli 1:0.5.5-1
+gemini-cli-debug 1:0.5.5-1
 gettext 0.26-1
 ghostscript 10.06.0-1
 giflib 5.2.2-2
