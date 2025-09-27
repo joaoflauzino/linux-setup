@@ -663,7 +663,7 @@ linux-firmware-radeon 20250917-1
 linux-firmware-realtek 20250917-1
 linux-firmware-whence 20250917-1
 linux-headers 6.16.8.arch3-1
-linuxtoys-bin 5.2.0-1
+linuxtoys-bin 5.4.10-1
 lld 20.1.8-1
 llhttp 9.2.1-2
 llvm 20.1.8-1
