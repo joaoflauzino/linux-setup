@@ -39,6 +39,7 @@ blueberry 1.4.8-2
 bluez 5.84-1
 bluez-libs 5.84-1
 bluez-tools 0.2.0-6
+bluez-utils 5.84-1
 boost-libs 1.88.0-3
 breeze-icons 6.19.0-1
 brightnessctl 0.5.1-3
