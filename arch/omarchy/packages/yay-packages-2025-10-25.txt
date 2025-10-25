@@ -1105,7 +1105,7 @@ yay 12.5.2-2
 youtube-music-bin 3.11.0-3
 yyjson 0.12.0-1
 zed 0.209.5-1
-zen-browser-bin 1.16.4b-1
+zen-browser-bin 1.17.3b-1
 zenity 4.2.0-1
 zeromq 4.3.5-2
 zimg 3.0.5-1
