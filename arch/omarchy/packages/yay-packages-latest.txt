@@ -20,7 +20,7 @@ appstream 1.1.1-1
 aquamarine 0.9.5-4
 archlinux-keyring 20251012-1
 argon2 20190702-6
-asdcontrol-git r23.0ee8bd5-1
+asdcontrol 0.23.0ee8bd5-1
 at-spi2-core 2.58.1-1
 atkmm 2.28.4-1
 attica 6.19.0-1
@@ -39,7 +39,6 @@ binutils 2.45+r29+g2b2e51a31ec7-1
 bison 3.8.2-8
 bitwarden 2025.8.1-1
 blueberry 1.4.8-2
-blueprint-compiler 0.18.0-1
 bluez 5.84-1
 bluez-libs 5.84-1
 bluez-tools 0.2.0-6
@@ -137,6 +136,7 @@ enchant 2.8.12-1
 evince 1:48.1-1
 exempi 2.6.6-2
 exiv2 0.28.7-1
+expac 10-11
 expat 2.7.3-1
 eza 0.23.4-1
 fakeroot 1.37.1.2-1
@@ -195,7 +195,6 @@ glibmm 2.66.8-1
 glslang 1:1.4.328.1-1
 glu 9.0.3-2
 glycin 2.0.4-1
-glycin-gtk4 2.0.4-1
 gmp 6.3.0-2
 gnome-autoar 0.4.5-1
 gnome-bluetooth 3.34.5+r16+g61cfff1c-2
@@ -280,6 +279,7 @@ impala 0.4.1-1
 imv 4.5.0-6
 inetutils 2.6-1
 inotify-tools 4.25.9.0-1
+inxi 3.3.39.1-1
 iproute2 6.17.0-1
 iptables 1:1.8.11-2
 iputils 20250605-1
@@ -480,7 +480,6 @@ libdbusmenu-gtk3 16.04.0.r498-2
 libde265 1.0.16-2
 libdecor 0.2.4-1
 libdeflate 1.24-1
-libdex 1.0.0-1
 libdispatch 6.1-1
 libdisplay-info 0.3.0-1
 libdovi 3.3.2-1
@@ -723,7 +722,7 @@ lm_sensors 1:3.6.2-1
 lmdb 0.9.33-1
 lmstudio 0.3.30.2-1
 localsearch 3.10.1-1
-localsend-bin 1.17.0-1
+localsend 1.17.0-2
 lpsolve 5.5.2.11-3
 lsb-release 2.0.r55.a25a4fc-1
 lsof 4.99.5-2
@@ -789,6 +788,7 @@ nwg-displays 0.3.26-1
 obs-studio 32.0.1-2
 obsidian 1.9.14-1
 ocl-icd 2.3.3-1
+oh-my-zsh-git r7623.99017b8ea-1
 ollama 0.12.6-2
 ollama-cuda 0.12.6-2
 omarchy-chromium 141.0.7390.122-6
@@ -1046,7 +1046,7 @@ vulkan-icd-loader 1.4.328.1-1
 vulkan-tools 1.4.328.1-1
 walker 2.6.2-1
 waybar 0.14.0-3
-wayfreeze-git r71.dc41ae1-1
+wayfreeze 0.1.0-1
 wayland 1.24.0-1
 wayland-protocols 1.45-1
 webkit2gtk-4.1 2.50.1-1
@@ -1115,5 +1115,6 @@ zlib 1:1.3.1-2
 zlib-ng 2.2.5-1
 zoxide 0.9.8-2
 zram-generator 1.2.1-1
+zsh 5.9-5
 zstd 1.5.7-2
 zxing-cpp 2.3.0-5
