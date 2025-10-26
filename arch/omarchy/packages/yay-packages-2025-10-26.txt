@@ -468,6 +468,7 @@ libcdr 0.1.8-2
 libcloudproviders 0.3.6-2
 libcmis 0.6.2-6
 libcolord 1.4.8-1
+libconfig 1.8.1-1
 libcue 2.3.0-1
 libcups 2:2.4.14-1
 libcupsfilters 2.1.1-2
@@ -856,7 +857,6 @@ psmisc 23.7-1
 pugixml 1.15-2
 pulseaudio-qt 1.7.0-1
 purpose 6.19.0-1
-pycharm-community-edition 2025.2.3-2
 pyenv 1:2.6.11-1
 python 3.13.7-1
 python-aaf2 1.7.1-3
