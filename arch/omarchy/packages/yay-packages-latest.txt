@@ -719,7 +719,7 @@ linux-firmware-radeon 20251021-1
 linux-firmware-realtek 20251021-1
 linux-firmware-whence 20251021-1
 linux-headers 6.17.5.arch1-1
-linuxtoys-bin 5.5.1-1
+linuxtoys-bin 5.6-1
 lld 21.1.4-1
 llhttp 9.2.1-2
 llvm 21.1.4-1
@@ -1113,7 +1113,7 @@ yay 12.5.2-2
 youtube-music-bin 3.11.0-3
 yyjson 0.12.0-1
 zed 0.209.7-1
-zen-browser-bin 1.16.4b-1
+zen-browser-bin 1.17.3b-1
 zenity 4.2.0-1
 zeromq 4.3.5-2
 zimg 3.0.5-1
