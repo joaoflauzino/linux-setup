@@ -325,7 +325,7 @@ kiconthemes 6.19.0-1
 kio 6.19.0-2
 kirigami 6.19.0-1
 kirigami-addons 1.10.0-1
-kiro-bin 1:0.4.0-1
+kiro-bin 1:0.5.0-1
 kitemmodels 6.19.0-1
 kitemviews 6.19.0-1
 kjobwidgets 6.19.0-1
@@ -1005,7 +1005,7 @@ telegram-desktop 6.2.5-1
 tevent 1:0.17.1-1
 texinfo 7.2-1
 timeshift 25.07.7-1
-timeshift-autosnap 0.9-1
+timeshift-autosnap 0.10.0-1
 tinysparql 3.10.1-1
 tldr 3.4.3-2
 tomlplusplus 3.4.0-1
@@ -1110,7 +1110,7 @@ yay 12.5.2-2
 youtube-music-bin 3.11.0-3
 yyjson 0.12.0-1
 zed 0.210.4-1
-zen-browser-bin 1.17.3b-1
+zen-browser-bin 1.17.4b-1
 zenity 4.2.0-1
 zeromq 4.3.5-2
 zimg 3.0.5-1
