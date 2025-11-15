@@ -150,7 +150,7 @@ fftw 3.3.10-7
 file 5.46-5
 filesystem 2025.10.12-1
 findutils 4.10.0-3
-firefox-bin 144.0-1
+firefox-bin 145.0-1
 flac 1.5.0-1
 flatpak 1:1.16.1-1
 flex 2.6.4-5
@@ -325,7 +325,7 @@ kiconthemes 6.19.0-1
 kio 6.19.0-2
 kirigami 6.19.0-1
 kirigami-addons 1.10.0-1
-kiro-bin 1:0.5.9-1
+kiro-bin 1:0.5.35-1
 kitemmodels 6.19.0-1
 kitemviews 6.19.0-1
 kjobwidgets 6.19.0-1
