@@ -150,7 +150,7 @@ fftw 3.3.10-7
 file 5.46-5
 filesystem 2025.10.12-1
 findutils 4.10.0-3
-firefox-bin 145.0-1
+firefox-bin 145.0.2-1
 flac 1.5.0-1
 flatpak 1:1.16.1-1
 flex 2.6.4-5
@@ -325,7 +325,7 @@ kiconthemes 6.20.0-1
 kio 6.20.0-1
 kirigami 6.20.0-1
 kirigami-addons 1.10.0-1
-kiro-bin 1:0.5.35-1
+kiro-bin 1:0.7.5-1
 kitemmodels 6.20.0-1
 kitemviews 6.20.0-1
 kjobwidgets 6.20.0-1
@@ -717,7 +717,7 @@ linux-firmware-radeon 20251125-2
 linux-firmware-realtek 20251125-2
 linux-firmware-whence 20251125-2
 linux-headers 6.17.9.arch1-1
-linuxtoys-bin 5.6-1
+linuxtoys-bin 5.6.2-1
 lld 21.1.6-1
 llhttp 9.2.1-2
 llvm 21.1.6-1
@@ -1114,7 +1114,7 @@ yay 12.5.3-1
 youtube-music-bin 3.11.0-3
 yyjson 0.12.0-1
 zed 0.215.3-1
-zen-browser-bin 1.17.6b-1
+zen-browser-bin 1.17.12b-1
 zenity 4.2.1-1
 zeromq 4.3.5-2
 zimg 3.0.5-1
