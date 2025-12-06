@@ -1,0 +1,6 @@
+[Unit]
+Description=Ativar nightlight do Omarchy
+
+[Service]
+ExecStart=/home/joaoflauzino/.local/share/omarchy/bin//omarchy-toggle-nightlight
+Type=oneshot

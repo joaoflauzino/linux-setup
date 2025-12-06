@@ -1,0 +1,9 @@
+[Unit]
+Description=Ativar nightlight 1 minuto após login
+
+[Timer]
+OnBootSec=1min
+Unit=omarchy-nightlight.service
+
+[Install]
+WantedBy=default.target
