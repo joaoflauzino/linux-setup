@@ -1,15 +1,15 @@
-# Introduction
+# Introdução
 
-This section contains scripts that are executed after system update.
+Esta seção contém scripts que são executados após a atualização do sistema.
 
 
-# Packages-list commit
+# Commit da lista de pacotes
 
 ```bash
 sudo chmod +x /usr/local/bin/save-packages.sh
 ```
 
-## Check 
+## Verificar 
 
 ```bash
 yay -Syu
